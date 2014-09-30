@@ -52,7 +52,7 @@ public class MainActivity extends Activity {
 		new Thread() {
 			public void run() {
 				String result = Utils.httpsGet(MainActivity.this,
-						"http://m.baidu.com");
+						"https://api.i952169.com.cn:8065/BKingAPI.ashx?__from=android&module=Public&action=SendAuthCode&type=0&PhoneNo=15507591767");
 			}
 		}.start();
 	}
